@@ -11,11 +11,12 @@
         </h2>
         <p class="mt-3 text-neutral-400 dark:text-neutral-400">
           R-Blocks meet and exceed all IBC and IRC requirements for building materials.
-          Our polyurethane ICF blocks deliver rapid payoff compared to traditional
-          stick-frame or concrete walls made from ICF blocks with expanded polystyrene (EPS).
+          <span class="text-neutral-100">Our polyurethane ICF blocks deliver rapid payoff</span>
+          compared to traditional stick-frame or concrete walls made from ICF blocks with expanded polystyrene (EPS).
         </p>
         <p class="mt-3 text-neutral-400 dark:text-neutral-400">
-          R-Blocks' advantages over EPS rapidly accelerate during construction and after project completion.
+          R-Blocks' advantages over EPS rapidly accelerate
+          <span class="text-neutral-100">during construction and after project completion.</span>
           Our durable, long-lasting polyurethane molds deliver quantifiable benefits.
         </p>
         <p class="mt-5">
@@ -28,16 +29,16 @@
       <div class="space-y-6 lg:space-y-10">
         <IconBlock title="R-value">
           The insulation value of solid, reinforced concrete walls with R-Blocks is R-80,
-          nearly 6 times that of stick-framed insulated walls
-          and more than double that of concrete walls made with EPS blocks.
+          <span class="text-[#ff0]">nearly 6 times</span> that of stick-framed insulated walls
+          and <span class="text-[#ff0]">more than double</span> that of concrete walls made with EPS blocks.
         </IconBlock>
         <IconBlock title="Rigidity">
           Polyurethane R-Blocks' greater thickness and density make them easier to install than EPS blocks.
-          Minimum bracing lets you pour walls higher, straighter, and seamlessly
+          Minimum bracing lets you pour walls<span class="text-[#ff0]"> higher, straighter, and seamlessly</span>
           without the risks of blowouts associated with EPS molds.
         </IconBlock>
         <IconBlock title="Ruggedness">
-          R-Blocks are built to last and have significantly more resistance to
+          R-Blocks are built to last and are <span class="text-[#ff0]">significantly more resistant</span> to
           water, fire, bugs, and other environmental conditions.
           Our high-grade plastic inserts will not split or crack
           when attaching interior drywall or exterior materials.

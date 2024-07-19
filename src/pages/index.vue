@@ -5,6 +5,8 @@
 <template>
   <HeroSection/>
   <IconBlocks/>
+  <Testimonial/>
+  <Features/>
 </template>
 
 <style scoped>
