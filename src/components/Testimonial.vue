@@ -1,7 +1,3 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
   <!-- Testimonials -->
   <div class="relative overflow-hidden">
@@ -12,8 +8,8 @@
         <div class="hidden lg:block lg:col-span-2">
           <img
             class="rounded-xl"
-            src="https://images.unsplash.com/photo-1671726203390-cdc4354ee2eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-            alt="Photo of Adam Huff, S.E. | Licensed Structural Engineer">
+            src="/img/Adam_Huff.png"
+            alt="Adam Huff, S.E. | Licensed Structural Engineer">
         </div>
         <!-- End Col -->
 
@@ -32,7 +28,10 @@
             <footer class="mt-6">
               <div class="flex items-center">
                 <div class="lg:hidden flex-shrink-0">
-                  <img class="size-12 rounded-full" src="https://images.unsplash.com/photo-1671726203390-cdc4354ee2eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description">
+                  <img
+                    class="size-12 rounded-full"
+                    src="/img/Adam_Huff.png"
+                    alt="Adam Huff, S.E. | Licensed Structural Engineer">
                 </div>
                 <div class="ms-4 lg:ms-0">
                   <p class="font-medium text-neutral-200">
@@ -54,7 +53,3 @@
   </div>
   <!-- End Testimonials -->
 </template>
-
-<style scoped>
-
-</style>
