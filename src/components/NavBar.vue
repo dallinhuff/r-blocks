@@ -8,7 +8,7 @@ const links = [
 ]
 
 const actions = [
-  ['Contact us', '/contact']
+  ['Contact us', '/#contact']
 ]
 </script>
 
@@ -23,7 +23,7 @@ const actions = [
           to="/"
           aria-label="R-Blocks"
         >
-          R-Blocks
+          <Logo class="h-16 p-2"/>
         </NuxtLink>
         <!-- End Logo -->
 

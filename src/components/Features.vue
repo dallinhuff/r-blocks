@@ -4,11 +4,13 @@
 
 <template>
   <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-    <h3 class="text-3xl md:text-4xl text-white font-semibold">The R-Blocks Difference</h3>
-    <p class="text-neutral-400 text-lg font-semibold my-8">
-      The advantages of polyurethane R-Blocks are immediate and long-term.
-      Compared to EPS foam molds, you get far greater:
-    </p>
+    <div class="max-w-5xl mx-auto px-4 xl:px-0">
+      <h3 class="text-3xl md:text-4xl text-white font-semibold">The R-Blocks Difference</h3>
+      <p class="text-neutral-400 text-lg font-semibold my-8">
+        The advantages of polyurethane R-Blocks are immediate and long-term.
+        Compared to EPS foam molds, you get far greater:
+      </p>
+    </div>
     <div class="max-w-4xl mx-auto">
       <div class="grid md:grid-cols-2 gap-6 lg:gap-12">
         <div class="space-y-6 lg:space-y-10">
