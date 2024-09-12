@@ -54,6 +54,9 @@ function setErrors(errors?: ContactMessage): void {
       <div class="max-w-3xl mb-10 lg:mb-14">
         <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">Contact us</h2>
         <p class="mt-1 text-neutral-400">
+          We'd love to hear from you.
+        </p>
+        <p class="mt-1 text-neutral-400">
           Use this form to request pricing and additional information
           about a custom R-Blocks solution for your next building project.
         </p>

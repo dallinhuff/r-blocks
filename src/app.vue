@@ -5,7 +5,7 @@ import NavBar from '~/components/NavBar.vue'
 </script>
 
 <template>
-  <div class="bg-neutral-900">
+  <div class="bg-neutral-900 min-h-screen">
     <NavBar />
     <main>
       <NuxtPage/>
