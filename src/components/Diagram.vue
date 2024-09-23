@@ -1,5 +1,5 @@
 <template>
-  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="190 0 210 780">
+  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="190 0 210 780">
     <defs>
       <clipPath id="clippath">
         <polygon class="cls-2" points="380.1 706.3 369.6 706.6 368.2 709.3 360 709.7 358.7 706.3 347.2 706.3 347.2 73.4 358.2 73.4 358.9 78.8 368.4 78.3 369.6 73.7 380.1 73.4 380.1 706.3"/>
@@ -291,7 +291,7 @@
 }
 
 .cls-2, .cls-6, .cls-7 {
-  stroke-width: 0px;
+  stroke-width: 0;
 }
 
 .cls-3, .cls-4 {

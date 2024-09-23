@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const links = [
   ['Home', '/'],
-  ['Solutions', '/solutions'],
-  ['Partners', '/partners'],
-  ['Resources', '/resources'],
+  ['Solutions', '/#solutions'],
+  ['Partners', '/#partners'],
+  ['Resources', '/#resources'],
 ]
 
 const actions = [

@@ -25,7 +25,7 @@ const formErrors = reactive<Partial<ContactMessage>>({
 
 function submit(): void {
   $fetch('/api/contact', { method: 'POST', body: formInfo })
-    .then((result) => clearForm)
+    .then(() => clearForm)
     .catch(({ data: { data } }) => setErrors(data))
 }
 
