@@ -15,10 +15,11 @@ import { quotes } from "~/content/home/testimonials"
         <span class="text-[#ff0]">superior results</span>
         with R-Blocks
       </h4>
-      <div class="my-10 relative max-w-5xl mx-auto">
-        <video controls>
-          <source src="/vid/RBlocks1.mp4" type="video/mp4" />
-        </video>
+      <div class="my-10 max-w-5xl mx-auto">
+        <iframe class="hidden lg:block" width='100%' height="560px" src="https://www.youtube.com/embed/sHFlm493f48?&theme=dark&autohide=2"></iframe>
+        <iframe class="hidden md:block lg:hidden" width='100%' height="480px" src="https://www.youtube.com/embed/sHFlm493f48?&theme=dark&autohide=2"></iframe>
+        <iframe class="hidden sm:block md:hidden" width='100%' height="360px" src="https://www.youtube.com/embed/sHFlm493f48?&theme=dark&autohide=2"></iframe>
+        <iframe class="block sm:hidden" width='100%' height="240px" src="https://www.youtube.com/embed/sHFlm493f48?&theme=dark&autohide=2"></iframe>
       </div>
       <Quote v-bind="quotes[1]" />
     </div>
