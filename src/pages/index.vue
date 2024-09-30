@@ -6,7 +6,6 @@
     <HomeSection />
     <SolutionsSection />
     <PartnersSection />
-    <ResourcesSection />
     <ContactSection id="contact" />
   </div>
 </template>

@@ -9,11 +9,11 @@ defineProps<Props>();
 </script>
 
 <template>
-  <div class="lg:grid lg:grid-cols-6 lg:gap-8 lg:items-center">
+  <div class="lg:grid lg:grid-cols-6 lg:gap-8 lg:items-center my-4">
     <div class="hidden lg:block lg:col-span-2">
       <img class="rounded-xl" :src="image" :alt="attribution[0]" />
     </div>
-    <div class="lg:col-span-4 pt-12">
+    <div class="lg:col-span-4">
       <blockquote>
         <p
           class="text-xl font-medium lg:text-2xl lg:leading-normal text-neutral-200"

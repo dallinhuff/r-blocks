@@ -1,13 +1,13 @@
 type Detail = {
-  title: string
-  description: string
-}
+  title: string;
+  description: string;
+};
 
 type Section<T> = {
-  title: string
-  description: string[]
-  content: T[]
-}
+  title: string;
+  description: string[];
+  content: T[];
+};
 
 export const icf: Section<Detail> = {
   title: "ICF Solutions",
@@ -22,7 +22,7 @@ export const icf: Section<Detail> = {
     {
       title: "",
       description:
-        "Every detail sets R-Blocks apart. Our process is highly refined based on over 30 years of expertise in polyurethane ICF manufacturing.",
+        "Every detail sets R-Blocks apart.<br>Our process is highly refined based on over 30 years of expertise in polyurethane ICF manufacturing.",
     },
     {
       title: "Thickness",
