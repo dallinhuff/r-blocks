@@ -17,7 +17,7 @@ import { advantages } from "~/content/home/advantages";
   <ImageCard
     src="/img/RBlocks4.jpg"
     alt="R Blocks"
-    class="max-w-5xl mx-auto px-4 pb-24"
+    class="max-w-5xl mx-auto px-4 pb-18"
   />
 
   <Features :title="features.title" :subtitle="features.description">
@@ -32,10 +32,6 @@ import { advantages } from "~/content/home/advantages";
       </template>
     </template>
   </Features>
-
-  <SolutionsFeatures />
-
-  <Testimonial />
 
   <IconBlocks :title="advantages.title">
     <template #body>
@@ -64,4 +60,8 @@ import { advantages } from "~/content/home/advantages";
       </IconBlock>
     </template>
   </IconBlocks>
+
+  <SolutionsFeatures />
+
+  <Testimonial />
 </template>
