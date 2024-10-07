@@ -10,15 +10,16 @@ import { advantages } from "~/content/home/advantages";
       <span class="text-[#ff0]">{{ hero.title }}</span> {{ hero.subtitle }}
     </template>
     <template #body>
-      {{ hero.body }}
+      <div class="grid lg:grid-cols-3 gap-12 pt-2">
+        <p class="text-xl text-neutral-400">{{ hero.body }}</p>
+        <ImageCard
+          src="/img/RBlocks4.jpg"
+          alt="R Blocks"
+          class="lg:col-span-2 order-first md:order-last"
+        />
+      </div>
     </template>
   </HeroSection>
-
-  <ImageCard
-    src="/img/RBlocks4.jpg"
-    alt="R Blocks"
-    class="max-w-5xl mx-auto px-4 pb-18"
-  />
 
   <Features :title="features.title" :subtitle="features.description">
     <template #col1>
@@ -32,6 +33,12 @@ import { advantages } from "~/content/home/advantages";
       </template>
     </template>
   </Features>
+
+  <ImageCard
+    src="/img/RBlocks2.jpg"
+    alt="R Blocks"
+    class="max-w-5xl mx-auto px-4 xl:px-0 pb-12"
+  />
 
   <IconBlocks :title="advantages.title">
     <template #body>
@@ -60,6 +67,12 @@ import { advantages } from "~/content/home/advantages";
       </IconBlock>
     </template>
   </IconBlocks>
+
+  <ImageCard
+    src="/img/RBlocks12.jpg"
+    alt="R Blocks"
+    class="max-w-5xl mx-auto px-4 lx:px-0 pb-18"
+  />
 
   <SolutionsFeatures />
 

@@ -28,16 +28,16 @@ import { commercial } from "~/content/solutions/commercial";
       {{ residential.title }}
     </template>
     <template #body>
-      <ImageCard
-        src="/img/RBlocks11.jpg"
-        alt="R Blocks"
-        class="max-w-5xl mx-auto py-6"
-      />
-      <template v-for="section in residential.description">
-        <p class="text-neutral-400 text-lg">{{ section }}</p>
-        <br />
-      </template>
-      <ContactLink />
+      <div class="grid md:grid-cols-2 gap-12">
+        <ImageCard src="/img/RBlocks11.jpg" alt="R Blocks" />
+        <div>
+          <template v-for="section in residential.description">
+            <p class="text-neutral-400 text-lg">{{ section }}</p>
+            <br />
+          </template>
+          <ContactLink />
+        </div>
+      </div>
     </template>
   </HeroSection>
 
@@ -46,16 +46,16 @@ import { commercial } from "~/content/solutions/commercial";
       {{ commercial.title }}
     </template>
     <template #body>
-      <ImageCard
-        src="/img/RBlocks10.jpg"
-        alt="R Blocks"
-        class="max-w-5xl mx-auto py-6"
-      />
-      <template v-for="section in commercial.description">
-        <p class="text-neutral-400 text-lg">{{ section }}</p>
-        <br />
-      </template>
-      <ContactLink />
+      <div class="grid md:grid-cols-2 gap-12">
+        <ImageCard src="/img/RBlocks10.jpg" alt="R Blocks" />
+        <div>
+          <template v-for="section in commercial.description">
+            <p class="text-neutral-400 text-lg">{{ section }}</p>
+            <br />
+          </template>
+          <ContactLink />
+        </div>
+      </div>
     </template>
   </HeroSection>
 </template>
