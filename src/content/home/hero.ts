@@ -1,6 +1,6 @@
 export const hero = {
-  title: "R-Blocks",
-  subtitle: "The Pinnacle of ICF",
+  title: "R-Blocks:",
+  subtitle: "Build Smart, Live Secure",
   body: `R-Blocks is the pinnacle of Insulated Concrete Forms (ICF) manufacturing.
          Our stay-in-place reinforced concrete wall molds are
          exclusively made with polyurethane foam and precision methods,

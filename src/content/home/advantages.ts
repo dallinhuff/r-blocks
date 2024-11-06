@@ -29,9 +29,9 @@ export const advantages: Section<Advantage> = {
     {
       title: "R-value",
       description: [
-        "The insulation value of solid, reinforced concrete walls with R-Blocks is R-80",
-        "nearly 6 times",
-        "that of stick-framed insulated walls and more than double that of concrete walls made with EPS blocks.",
+        "The insulation value of solid, reinforced concrete walls with R-Blocks is between R-40 and R-50 (with exterior and interior cladding). This is",
+        "more than 2x the R-Value",
+        "of finished walls made with EPS forms and 3-4x that of stick-framed insulated walls.",
       ],
     },
     {

@@ -184,7 +184,7 @@ function setErrors(errors?: ContactMessage): void {
               <h4 class="text-white font-semibold">Email us:</h4>
 
               <a
-                class="mt-1 text-neutral-400 text-sm"
+                class="mt-1 text-neutral-400"
                 href="mailto:info@thermalblocksusa.com"
                 target="_blank"
               >
@@ -211,11 +211,15 @@ function setErrors(errors?: ContactMessage): void {
               <path d="m3 11 18-5v12L3 14v-3z" />
               <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6" />
             </svg>
-            <div class="grow">
-              <h4 class="text-white font-semibold">Call us:</h4>
-              <a href="tel:5039497698" class="mt-1 text-neutral-400"
-                >(503) 949-7698</a
-              >
+            <div class="grow" id="call-text">
+              <h4 class="text-white font-semibold">Call or text us any time:</h4>
+              <div class="grid grid-cols-2 grid-rows-2 grid-flow-col py-1 text-neutral-400">
+                <p>Dan Jensen, CEO</p>
+                <a href="tel:8016645907">(801) 664-5907</a>
+
+                <p>Mitchell Scott, President</p>
+                <a href="tel:5039497698">(503) 949-7698</a>
+              </div>
             </div>
           </div>
           <!-- End Item -->

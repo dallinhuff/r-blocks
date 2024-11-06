@@ -32,7 +32,7 @@ export const icf: Section<Detail> = {
     {
       title: "Width options",
       description:
-        "We offer 6, 8, and 10-inch mold widths to build foundation walls to complete exterior and interior structures.",
+        "We offer 6 and 8-inch mold widths to build foundation walls to complete exterior and interior structures.",
     },
     {
       title: "Flame resistance",
@@ -42,7 +42,7 @@ export const icf: Section<Detail> = {
     {
       title: "Rigidity",
       description:
-        "Polyurethane is approximately 3x stronger in tension and compression when induced by bending stresses than EPS. This prevents blowouts when pouring concrete.",
+        "Polyurethane is approximately 7x higher in compressive strength than EPS. This prevents blowouts when pouring concrete.",
     },
     {
       title: "More robust inserts",
