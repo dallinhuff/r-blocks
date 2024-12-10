@@ -2,6 +2,7 @@
 const links = [
   ['Home', '/'],
   ['Solutions', '/#solutions'],
+  ['Resources', '/#resources'],
   ['Partners', '/#partners'],
 ]
 
